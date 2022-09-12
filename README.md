@@ -2,7 +2,7 @@
 Built a classification model to predict the likelihood of credit card default 
 # 1. Executive Summary
 
-- Goal/Task: To develop a build to predict the likelihood of default
+- Goal/Task: To develop a model to predict the likelihood of default
 - Metric: Optimizing for ROC_AUC and Recall (since I assume False Negative is critical for our goal)
 - Engineered two new features namely "credit_utilization_rate" and "revolving_balance_rate"
     - "credit_utilization_rate" is defined as the ratio of average statement balance to credit limit
